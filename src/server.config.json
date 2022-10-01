@@ -1,0 +1,7 @@
+{
+  "port": 80,
+  "debug": true,
+  "database": "shared_server",
+  "tables": [],
+  "subdomains": []
+}

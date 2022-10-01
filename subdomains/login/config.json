@@ -1,0 +1,18 @@
+{
+  "baseURL": "login",
+  "prefix": "$1",
+  "tables": [
+    {
+      "name": "users",
+      "body": [
+        "id INT AUTO_INCREMENT",
+        "username VARCHAR(100) UNIQUE NOT NULL",
+        "password VARCHAR(100) NOT NULL",
+        "email VARCHAR(100) NOT NULL",
+        "create_datetime DATETIME DEFAULT NOW()",
+        "PRIMARY KEY (id)"
+      ],
+      "comment": "Used for login and register"
+    }
+  ]
+}

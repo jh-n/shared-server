@@ -1,0 +1,23 @@
+{
+  "exclude": [],
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "CommonJS",
+
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@subdomains": ["subdomains"]
+    }
+  },
+  "ts-node": {
+    "require": []
+  }
+}
